@@ -1,0 +1,58 @@
+
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+}
+
+header{
+  width:100%;
+  position:fixed;
+  top: 0%;
+  left: 90.3%;
+  background:orange;
+}
+
+/* header superior*/
+.header__superior{
+  max-width: 1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:30px;
+}
+
+.logo{
+  width:550px;
+}
+
+/* barra menu*/
+
+nav{
+  background: orange;
+}
+.esp{color: #1EE3B6;
+  font-size: 10px}
+    
+/*carrousel*/
+.carrouel-inner{
+  margin: 100%;
+}
+
+.filtro{text-decoration: none;
+color: black;}
+
+.icon-cart{
+  width: 50px;
+  height: 40px;
+}
+ 
+
+.cat{
+  height: 250px;
+  width: 250px;
+}
